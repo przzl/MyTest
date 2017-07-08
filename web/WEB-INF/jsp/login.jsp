@@ -17,7 +17,7 @@
 <% if(StringUtils.isNotEmpty(error)) { %>
 <font color="red"><%=errorMsg%></font>
 <% } %>
-<form action='/admin/loginCheck.html' method="post">
+<form action='../admin/loginCheck.html' method="post">
     用户名：
     <input type="text" name="userName"><br>
     密 码：

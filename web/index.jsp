@@ -9,7 +9,7 @@
 <html>
   <head><title>Simple jsp page</title>
     <script>
-    window.location.href = "/admin/login.html";
+    window.location.href = "./admin/login.html";
     </script>
   </head>
   <body>
