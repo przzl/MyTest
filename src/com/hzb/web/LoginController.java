@@ -29,12 +29,6 @@ public class LoginController {
     @RequestMapping(value = "/login.html")
     //② 负责处理 /admin/login.html 的请求（需要加上类的映射请求路径）,与index.jsp中的跳转目标保持一致
     public String loginPage() {
-
-
-
-
-
-
         System.out.println("____________________________________");
         return "login";
     }
